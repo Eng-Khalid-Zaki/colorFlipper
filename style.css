@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  width: -moz-fit-content;
+}
+/* start navbar */
+.container {
+  height: 30px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+.color-type {
+  display: flex;
+}
+.color-type p {
+  padding: 5px;
+}
+.cf {
+  color: hsl(205, 78%, 60%);
+}
+p {
+  font-size: 20px;
+}
+p button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+p button:hover {
+  color: hsl(205, 78%, 60%);
+  background-color: white;
+}
+/* end navbar */
+/* start body */
+.color-change {
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.color-change h2 {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+.color-change button {
+  padding: 15px;
+}
+button:hover {
+  color: white;
+  background-color: black !important;
+  cursor: pointer;
+}
+/* end body  */
